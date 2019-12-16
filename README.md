@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML attempts to accurately represent its meaning to both the browser and the developer. Non-semantic elements (such as <div> or <span>) tell you nothing about their content absent a class or ID. Semantic elements (such as <section>, <form>, <article>, or <main>) clearly define what the content is at a glance.
+Semantic HTML attempts to accurately represent its meaning to both the browser and the developer. Non-semantic elements (such as div or span) tell you nothing about their content absent a class or ID. Semantic elements (such as section, form, article, or main) clearly define what the content is at a glance.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
