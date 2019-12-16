@@ -226,4 +226,36 @@ header nav a:hover {
 .about-box {
     border-bottom: dashed 1px black;
     width: 370px;
+    margin: 1em auto;
+    padding-bottom: 1em;
+}
+
+.about-box h2 {
+    margin-top: 0.5em;
+}
+
+/* buttons */
+.button {
+    border: solid 2px black;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 2em;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #cbcccd;
+}
+
+/* about bottom */
+.about-bottom {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.about-bottom div {
+    width: 96%;
 }
