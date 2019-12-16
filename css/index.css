@@ -83,7 +83,8 @@ p {
     width: 48%;
 }
 
-#about .top-content .text-container {
+#about .top-content .text-container,
+#products .top-content .text-container {
     width: 96%;
 }
 
@@ -215,6 +216,10 @@ header nav a:hover {
     background: url('../img/jumbo-about.png') 100% 100% no-repeat;
 }
 
+#products .jumbotron {
+    background: url('http://placekitten.com/800/153') 100% 100% no-repeat;
+}
+
 /* about boxes */
 
 .about-boxes {
@@ -245,7 +250,8 @@ header nav a:hover {
     text-decoration: none;
 }
 
-.button:hover {
+.button:hover,
+.product .button:hover {
     background: #cbcccd;
 }
 
@@ -258,4 +264,30 @@ header nav a:hover {
 
 .about-bottom div {
     width: 96%;
+}
+
+/* products */
+
+.pricing-table {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+}
+
+.product {
+    width: 250px;
+    padding: 15px;
+    background: #efefef;
+}
+
+.product:nth-child(2) {
+    background: #dedede;
+}
+
+.product p {
+    margin-top: 1em;
+}
+
+.product .button {
+    background: white;
 }
